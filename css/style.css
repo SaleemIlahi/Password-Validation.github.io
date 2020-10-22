@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo+2:wght@500&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    min-height: 100vh;
+    font-size: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Exo 2', sans-serif;
+    background: #f1f2f6;
+}
+h1{
+    transform: translateY(-30px);
+    font-size: 4em;
+    text-transform: capitalize;
+}
+.container{
+    width: 500px;
+    text-align: center;
+    box-shadow: -10px -10px 15px rgba(255,255,255,0.5),
+                10px 10px 15px rgba(0,0,0,0.12);
+    padding: 30px 0;
+}
+form label{
+    width: 400px;
+    color: #000;
+    font-size: 1.4em;
+    text-transform: capitalize;
+}
+form input{
+    width: 300px;
+    height: 25px;
+    margin: 20px 15px; 
+    padding: 8px;
+    font-size: 1.07em;
+    background: #f1f2f6;
+    border: none;
+    outline: none;
+    box-shadow: 5px 5px 10px rgba(255,255,255,0.5),
+                inset -5px -5px 10px rgba(255,255,255,0.5),
+                -5px -5px 10px rgba(255,255,255,0.5),
+                inset 5px 5px 10px rgba(0,0,0,0.15);
+}
+form .password{
+    transform: translateX(10px);
+}
+form .password .fa-eye{
+    cursor: pointer;
+}
+
+.valid-check{
+    transform: translateX(100px);
+    text-align: start;
+}
+.valid-check .valid{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: row;
+    text-transform: capitalize;
+    color: #b2bec3;
+}
+.valid-check .valid h4{
+    margin-left: 10px;
+}
+.submit{
+    transform: translateX(-150px);
+    padding: 8px 10px;
+    margin-top: 10px;
+    font-size: 1em;
+    letter-spacing: 2px;
+    border: none;
+    outline: none;
+    box-shadow: -8px -8px 12px rgba(255,255,255,0.5),
+                8px 8px 12px rgba(0,0,0,0.12);
+    cursor: pointer;
+}

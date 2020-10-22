@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width,initial-scale=1.0" />
+        <script src="https://kit.fontawesome.com/e4c726126a.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="css/style.css" />
+        <title>Password Validation</title>
+    </head>
+    <body>
+        <h1>Password Validation</h1>
+        <div class="container">
+            <form>    
+                <label>username</label>
+                <div class="username">
+                    <i class="fas fa-user"></i>
+                    <input type="text" placeholder="username" id="username" />
+                </div>
+                <label>password</label>
+                <div class="password">
+                    <i class="fas fa-lock"></i>
+                    <input type="password" placeholder="password" id="password" />
+                    <i class="far fa-eye" id="pass_logo"></i>
+                </div>
+            </form>
+            <div class="valid-check">
+                <div class="valid num" id="num">
+                    <i class="far fa-check-circle" id="check_Num"></i><h4>using numbers</h4>
+                </div>
+                <div class="valid cap-alpha" id="cap-alpha">
+                    <i class="far fa-check-circle" id="check_Cap"></i><h4>capital letters</h4>
+                </div>
+                <div class="valid special-char" id="special-char">
+                    <i class="far fa-check-circle" id="check_Sp"></i><h4>special characters</h4>
+                </div>
+                <div class="valid char-8" id="char-8">
+                    <i class="far fa-check-circle" id="check_M8"></i><h4>special characters</h4>
+                </div>
+            </div>
+            <input type="submit" value="Submit" class="submit" id="submit" />
+        </div>
+
+        <script src="js/app.js"></script>
+    </body>
+</html>
